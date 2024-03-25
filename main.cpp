@@ -151,6 +151,7 @@ int main() {
     const int quantum = 10;
 
     vector<process> task = read_tasks(filename);
+    cout << "Tasks: " << endl;
     print_processes(task);
 
     cout << "FCFS: " << endl;
